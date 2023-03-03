@@ -1,0 +1,13 @@
+package curs4.homework;
+
+public class Ex3EvenNumbers {
+
+    /* Scriem un program care printeaza doar numerele pare intre 0-20 */
+
+    public static void main(String[] args) {
+        for (int i = 0; i <= 20; i++) {
+            if ((i % 2) == 0)
+                System.out.print(i + " ");
+        }
+    }
+}
